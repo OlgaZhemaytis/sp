@@ -1,0 +1,29 @@
+.documents{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    background: url("/img/bg5.jpg") no-repeat;
+    background-size: cover;
+   
+    &__wrap{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+    }
+    &__item{
+        display: block;
+        width: 30%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    &__img{
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+}

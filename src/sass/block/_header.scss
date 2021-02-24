@@ -1,0 +1,108 @@
+.header{
+    max-width: 100%;
+    height: 100px;
+
+    background-color: #07266B;
+    &__wrap{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+    
+    &__img{
+        width: 60px;
+    }
+    &__menubox{
+       
+        display: flex;
+        height: 60px;
+        align-items: stretch;
+        justify-content: space-between;
+       
+    }
+    &__item{
+        color: white;
+        margin-top: 7px;
+    }
+    &__link{
+        color: white;
+        text-decoration: none;
+    }
+    &__email{
+        color: white;
+        text-decoration: none;
+    }
+    &__menu {
+        .header__link {
+            text-decoration: none;
+            display: block;
+            transition: .3s linear;
+        }
+        .header__listitem:hover > .header__listsecond {
+            transform: rotateX(0deg);
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+    &__listtop {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .header__listitem {
+            float: left;
+            position: relative;        
+            &:first-child {
+                border-left: 0;
+            }
+            .header__link {
+                padding: 33px 10px;
+                font-size: 21px;
+                text-transform: uppercase;
+                color: white;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    &__listsecond {
+        position: absolute;
+        z-index: 5;
+        min-width: 200px;
+        background: white;
+        visibility: hidden;
+        opacity: 0;
+        transform-origin: 0% 0%;
+        transform: rotateX(-90deg);
+        transition: .3s linear;
+        top:60px;
+        .header__listitem_bot {
+            position: relative;
+            .header__link {
+                color: #282828;
+                text-transform: none;
+                display: block;
+                padding: 10px 20px;
+                font-size: 14px;
+                border-bottom: 1px solid #CBCBCC;
+            }
+        }
+    }
+    &__contacts{
+        display: block;
+        width: 130px;
+        padding: 20px;
+        color:white;
+    }
+}
+.modal{
+    width: 100px;
+    height: 40px;
+}
+
+

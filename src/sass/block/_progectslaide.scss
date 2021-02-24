@@ -1,0 +1,23 @@
+.progectslaide{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    &__slaide{
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+.reviews{
+    display: block;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

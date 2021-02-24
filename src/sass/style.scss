@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+.main{
+    max-width: 1600px;
+    margin: 0 auto;
+    border:1px solid red;
+}
+.mainpage{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.innerpage{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.title{
+    color:#4A73D2;
+    font-size:5em;
+    text-align: center;
+    opacity: 1;
+    
+    
+    &__mini{
+        color:blue;
+        font-size:3em;
+    }
+}
+.podtext{
+    position: absolute;
+    font-weight: bold;
+    color: #78cfff;
+    font-size: 7em;
+    top: 45px;
+    left: 42%;
+    opacity: 0.2;
+    line-height: 1;
+    text-transform: uppercase;
+    &_serv{
+        
+        font-size: 5em;
+    }
+    
+}
+
+@import 'block/header';
+@import 'block/promo';
+@import 'block/trust';
+@import 'block/footer';
+@import 'block/clients';
+@import 'block/advertising';
+@import 'block/documents';
+@import 'block/about';
+@import 'block/details';
+@import 'block/production';
+@import 'block/services';
+@import 'block/progectslaide';
+@import 'block/mexob';
+@import 'block/embeded';
+@import 'block/maps';
+@import 'block/manufacture';
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.victory{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 900px;
+    box-shadow: 1px -1px 26px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    background-color: #2b1c44;
+    &__wrap{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__title{
+        color:white;
+        font: 2em sans-serif;
+        text-align: center;
+        font-weight: bold;  
+    }
+    &__butbox{
+        margin-left: 40px;
+    }
+    &__btn{
+        background: linear-gradient(90deg, #A71D31 0%, #BF3A30 100%);
+        height: 45px;
+        width: 250px;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 5px;
+        border-bottom: 3px solid #a71d31;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: 15px;
+        &:hover{
+            border-bottom: 1px solid #a71d31;
+        }
+    }
+    &__num{
+        color:white;
+        font: 1em sans-serif;
+        text-align: center;
+       
+    }
+}

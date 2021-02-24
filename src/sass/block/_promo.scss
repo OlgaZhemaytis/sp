@@ -1,0 +1,121 @@
+.promo{
+    max-width: 100%;
+    min-height: 150px;   
+    top:60px;
+    
+    &__wrap{
+        display: block;
+        width: 600px;
+        height: 300px;
+        margin-left: 15%;
+        border: 20px solid #1641A5;
+        margin-top: 9em;
+        position: relative;
+        
+    }
+    &__title{
+        position: absolute;
+        width: 600px;
+        color: #fff;
+        font-size: 6em;
+        left: 33%;
+        font-weight: 700;
+    
+    }
+    &__text{
+        position: absolute;
+        width: 800px;
+        font-weight: bold;
+        color:white;
+        font-size: 2em;
+        margin-top: 1em;
+        left: 17%;
+        top: 32%;
+       
+    }
+    &__activ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        height: 100px;
+        margin:0 auto;
+        margin-top: 14em;
+        
+    }
+}
+.benefits{
+    width: 100%;
+}
+.benefits__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin: 0 auto;
+    padding: 60px 0;
+}
+ 
+ 
+.benefits__element {
+    width: 20%;
+}
+ 
+.benefits__icon {
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+ 
+.benefits__element p {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    line-height: 1.3;
+    
+}
+ 
+.benefits__number {
+    font-size:3em;
+    font-weight: 700;
+    margin-bottom: 0px
+}
+ 
+.benefits__title {
+    font-size: 1.3em;
+    display: block;
+    width: 80%;
+    display: block;
+   margin: 0 auto;
+
+   
+}
+.fullscreen-bg {
+    overflow:hidden;
+     height: 800px !important;
+     width: 100%;
+     position:relative;
+     &::before{
+         content:"";
+         position: absolute;
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(74, 115, 210, 0.3);
+         z-index: -1;
+     }
+ }
+  
+ .fullscreen-bg__video {
+     width: 100%;
+ margin-top:-6% !important;
+ position:absolute;
+ z-index:-5;
+ 
+ }
